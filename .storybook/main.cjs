@@ -15,8 +15,9 @@ module.exports = {
   "features": {
     "storyStoreV7": true
   },
+
   viteFinal: (config, { configType }) => {
-    if (configType == 'PRODUTION') {
+    if (configType === 'PRODUTION') {
       config.base = '/gp-lab-design-system/'
     }
     
