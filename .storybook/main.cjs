@@ -17,7 +17,7 @@ module.exports = {
   },
 
   "viteFinal": (config, { configType }) => {
-    if (configType === 'PRODUTION') {
+    if (configType === 'PRODUCTION') {
       config.base = '/gp-lab-design-system/'
     }
     
