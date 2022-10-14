@@ -21,6 +21,7 @@ module.exports = {
       config.base = '/gp-lab-design-system/'
     }
     
-    return config
+    return config;
   },
+  
 }
